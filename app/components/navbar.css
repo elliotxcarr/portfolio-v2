@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+li{
+  @apply text-xl text-gray-400  hover:text-white cursor-pointer transition duration-200
+}
