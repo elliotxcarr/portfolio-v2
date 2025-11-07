@@ -4,7 +4,7 @@ import './navbar.css';
 export default function Navbar() {
   return (
     <div className='w-full top-0 h-14 px-20'>
-      <div className='flex items-center h-full  flex-row justify-between'>
+      <div className='flex items-center h-full flex-row justify-between'>
         <Image
           className=""
           src="/Logo.png"

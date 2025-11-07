@@ -15,6 +15,7 @@ export default function Home() {
         <Navbar/>
         <Intro/>
       </div>
+      <div className="h-1 bg-white w-full"></div>
     </div>
   );
 }
