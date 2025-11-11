@@ -8,14 +8,14 @@ export default function Home() {
     <div className="w-screen h-full">
       <div className="relative w-full h-fit">
         <Image
-          className='object-cover -z-10'
+          className='object-cover -z-10 opacity-40'
           src='/repeating-triangles.svg'
           fill
           alt=''/>
         <Navbar/>
         <Intro/>
       </div>
-      <div className="h-1 bg-white w-full"></div>
+      <div className="h-1 bg-white w-full mt-10"></div>
     </div>
   );
 }

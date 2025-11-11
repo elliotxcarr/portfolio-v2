@@ -22,8 +22,9 @@ export default function Intro() {
           <h1 className="text-2xl ">Junior Software Developer</h1>
           <h1 className="text-2xl">First Class BSc Hons in Digital Media</h1>
         </div>
-        <div className=" mt-10">
+        <div className=" mt-10 flex flex-row gap-4">
           <Image src='/insta.svg' alt="" width={30} height={30} className="text-white"></Image>
+          <Image src='/linkedIn.svg' alt="" width={30} height={30} className="text-white"></Image>
         </div>
       </motion.div>
 
