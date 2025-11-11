@@ -5,6 +5,8 @@
   --foreground: #171717;
   --elliot-red: #FF2E63;
   --elliot-blue: #08D9D6;
+  --el-darker-blue: #0f7d7b80;
+  --el-darker-red: #8e113080;
 }
 
 @theme inline {
@@ -16,7 +18,9 @@
 
 @theme {
   --color-elliot-red:var(--elliot-red);
-  --color-elliot-blue:var(--elliot-blue)
+  --color-elliot-blue:var(--elliot-blue);
+  --color-darker-blue:var(--el-darker-blue);
+  --color-darker-red:var(--el-darker-red);
 }
 
 @media (prefers-color-scheme: dark) {

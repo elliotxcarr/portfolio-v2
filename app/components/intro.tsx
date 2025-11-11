@@ -22,7 +22,15 @@ export default function Intro() {
           <h1 className="text-2xl ">Junior Software Developer</h1>
           <h1 className="text-2xl">First Class BSc Hons in Digital Media</h1>
         </div>
-        <div className=" mt-10 flex flex-row gap-4">
+        <div className="flex my-5 gap-2">
+          <button className="p-2 outline-(--elliot-red) outline-1 text-lg text-white hover:cursor-pointer hover:bg-(--el-darker-red) hover:text-white duration-200">
+            Contact Me
+          </button>
+          <button className="p-2 outline-1 outline-(--elliot-blue) text-white text-lg  hover:cursor-pointer hover:bg-(--el-darker-blue) hover:text-white duration-200">
+            My CV
+          </button>
+        </div>
+        <div className=" flex flex-row gap-4">
           <Image src='/insta.svg' alt="" width={30} height={30} className="text-white"></Image>
           <Image src='/linkedIn.svg' alt="" width={30} height={30} className="text-white"></Image>
         </div>
